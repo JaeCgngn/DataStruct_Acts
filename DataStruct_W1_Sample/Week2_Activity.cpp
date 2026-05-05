@@ -103,33 +103,65 @@ using namespace std;
 
 int main()
 {
-	int currentStudents, currentSubjects;
-	string students; 
+	int studentsNum, subjectsNum, grade;
 
 	cout << "Enter the number of students: ";
-	cin >> currentStudents;
+	cin >> studentsNum;
 
 	cout << "Enter the number of subjects: ";
-	cin >> currentSubjects;
+	cin >> subjectsNum;
 
-	string* studentName = new string[students];
+	string name[5], subjects[4];
+	int grades[5][4];
+	int total[5] = { 0 };
+	float average[5];
 
-	int grades[currentStudents][currentSubjects];
 
-	for (int i = 0; i < currentStudents; i++)
+	for (int i = 0; i < studentsNum; i++)
 	{
-		cout << "Type the student name: ";
-		cin >> name;
+		cout << "\nEnter name of student: ";
+		cin >> name[i];
 
-		for (int j = 0; j < currentSubjects; j++)
+		for (int j = 0; j < subjectsNum; j++)
 		{
-			cout << "Enter Subject name: ";
-			cin >> subjects[currentSubjects];
+			cout << "\nEnter name of subject: ";
+			cin >> subjects[j];
 
-			cout << "Enter subject grade: ";
-			cin >> grades;
+			cout << "Enter grade of this subject: ";
+			cin >> grades[i][j];
+			total[i] += grades[i][j];
+		}
+		average[i] = (float)total[i] / subjectsNum;
+	}
+
+	//display
+	cout << "\n!Student Grades!" << endl;
+
+	for (int i = 0; i < studentsNum; i++)
+	{
+		cout << "\nStudent " << name[i] << " ";
+
+		for (int j = 0; j < subjectsNum; j++)
+		{
+			cout << grades[i][j] << " ";
+		}
+
+		cout << "total: " << total[i] << " ";
+		cout << "Average: " << average[i] << " ";
+	}
+
+	//highest
+	int topAverage = 0;
+	for (int i = 1; 1 < studentsNum; i++)
+	{
+		if (average[i] > average[topAverage])
+		{
+			topAverage = i;
 		}
 	}
+	cout << "\nTOP STUDENT: " << name[topAverage] << endl;
+
+
 }
 
 
