@@ -21,5 +21,8 @@
     <ClCompile Include="Week3_Activity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Week3_Quiz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

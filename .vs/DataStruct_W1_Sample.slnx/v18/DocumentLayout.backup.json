@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\CIIT\\Desktop\\DataStruct_Acts\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{754D3725-245B-4C25-85B5-B8DEFE1BFC83}|DataStruct_W1_Sample\\DataStruct_W1_Sample.vcxproj|C:\\Users\\CIIT\\Desktop\\DataStruct_Acts\\DataStruct_W1_Sample\\Week3_Quiz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{754D3725-245B-4C25-85B5-B8DEFE1BFC83}|DataStruct_W1_Sample\\DataStruct_W1_Sample.vcxproj|solutionrelative:DataStruct_W1_Sample\\Week3_Quiz.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{754D3725-245B-4C25-85B5-B8DEFE1BFC83}|DataStruct_W1_Sample\\DataStruct_W1_Sample.vcxproj|C:\\Users\\CIIT\\Desktop\\DataStruct_Acts\\DataStruct_W1_Sample\\Week3_Activity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{754D3725-245B-4C25-85B5-B8DEFE1BFC83}|DataStruct_W1_Sample\\DataStruct_W1_Sample.vcxproj|solutionrelative:DataStruct_W1_Sample\\Week3_Activity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Week3_Quiz.cpp",
+              "DocumentMoniker": "C:\\Users\\CIIT\\Desktop\\DataStruct_Acts\\DataStruct_W1_Sample\\Week3_Quiz.cpp",
+              "RelativeDocumentMoniker": "DataStruct_W1_Sample\\Week3_Quiz.cpp",
+              "ToolTip": "C:\\Users\\CIIT\\Desktop\\DataStruct_Acts\\DataStruct_W1_Sample\\Week3_Quiz.cpp",
+              "RelativeToolTip": "DataStruct_W1_Sample\\Week3_Quiz.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-12T04:44:17.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Week3_Activity.cpp",
               "DocumentMoniker": "C:\\Users\\CIIT\\Desktop\\DataStruct_Acts\\DataStruct_W1_Sample\\Week3_Activity.cpp",
               "RelativeDocumentMoniker": "DataStruct_W1_Sample\\Week3_Activity.cpp",
               "ToolTip": "C:\\Users\\CIIT\\Desktop\\DataStruct_Acts\\DataStruct_W1_Sample\\Week3_Activity.cpp",
               "RelativeToolTip": "DataStruct_W1_Sample\\Week3_Activity.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-12T04:31:21.271Z",
               "EditorCaption": ""
