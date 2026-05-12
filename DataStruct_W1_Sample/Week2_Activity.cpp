@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+//#include <iostream>
+//using namespace std;
 
 
 //int main()
@@ -100,69 +100,69 @@ using namespace std;
 
 
 
-
-int main()
-{
-	int studentsNum, subjectsNum, grade;
-
-	cout << "Enter the number of students: ";
-	cin >> studentsNum;
-
-	cout << "Enter the number of subjects: ";
-	cin >> subjectsNum;
-
-	string name[5], subjects[4];
-	int grades[5][4];
-	int total[5] = { 0 };
-	float average[5];
-
-
-	for (int i = 0; i < studentsNum; i++)
-	{
-		cout << "\nEnter name of student: ";
-		cin >> name[i];
-
-		for (int j = 0; j < subjectsNum; j++)
-		{
-			cout << "\nEnter name of subject: ";
-			cin >> subjects[j];
-
-			cout << "Enter grade of this subject: ";
-			cin >> grades[i][j];
-			total[i] += grades[i][j];
-		}
-		average[i] = (float)total[i] / subjectsNum;
-	}
-
-	//display
-	cout << "\n!Student Grades!" << endl;
-
-	for (int i = 0; i < studentsNum; i++)
-	{
-		cout << "\nStudent " << name[i] << " ";
-
-		for (int j = 0; j < subjectsNum; j++)
-		{
-			cout << grades[i][j] << " ";
-		}
-
-		cout << "total: " << total[i] << " ";
-		cout << "Average: " << average[i] << " ";
-	}
-
-	//highest
-	int topAverage = 0;
-	for (int i = 1; 1 < studentsNum; i++)
-	{
-		if (average[i] > average[topAverage])
-		{
-			topAverage = i;
-		}
-	}
-	cout << "\nTOP STUDENT: " << name[topAverage] << endl;
-
-
-}
+//
+//int main()
+//{
+//	int studentsNum, subjectsNum, grade;
+//
+//	cout << "Enter the number of students: ";
+//	cin >> studentsNum;
+//
+//	cout << "Enter the number of subjects: ";
+//	cin >> subjectsNum;
+//
+//	string name[5], subjects[4];
+//	int grades[5][4];
+//	int total[5] = { 0 };
+//	float average[5];
+//
+//
+//	for (int i = 0; i < studentsNum; i++)
+//	{
+//		cout << "\nEnter name of student: ";
+//		cin >> name[i];
+//
+//		for (int j = 0; j < subjectsNum; j++)
+//		{
+//			cout << "\nEnter name of subject: ";
+//			cin >> subjects[j];
+//
+//			cout << "Enter grade of this subject: ";
+//			cin >> grades[i][j];
+//			total[i] += grades[i][j];
+//		}
+//		average[i] = (float)total[i] / subjectsNum;
+//	}
+//
+//	//display
+//	cout << "\n!Student Grades!" << endl;
+//
+//	for (int i = 0; i < studentsNum; i++)
+//	{
+//		cout << "\nStudent " << name[i] << " ";
+//
+//		for (int j = 0; j < subjectsNum; j++)
+//		{
+//			cout << grades[i][j] << " ";
+//		}
+//
+//		cout << "total: " << total[i] << " ";
+//		cout << "Average: " << average[i] << " ";
+//	}
+//
+//	//highest
+//	int topAverage = 0;
+//	for (int i = 1; 1 < studentsNum; i++)
+//	{
+//		if (average[i] > average[topAverage])
+//		{
+//			topAverage = i;
+//		}
+//	}
+//	cout << "\nTOP STUDENT: " << name[topAverage] << endl;
+//
+//
+//}
 
 
 
